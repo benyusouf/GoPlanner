@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  goplanner.accounts:
+    image: ${DOCKER_REGISTRY-}goplanner
+    build:
+      context: .
+      dockerfile: GoPlanner.Accounts/Dockerfile
+
+  goplanner.plans:
+    image: ${DOCKER_REGISTRY-}goplanner
+    build:
+      context: .
+      dockerfile: GoPlanner.Plans/Dockerfile
+

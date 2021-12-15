@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoPlanner.Accounts", "GoPla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoPlanner.Plans", "GoPlanner.Plans\GoPlanner.Plans.csproj", "{515909B2-ECDB-488E-9429-5DD771AE4C9F}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{D430AB5D-37C8-4C9A-AF4A-51941322D61B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{515909B2-ECDB-488E-9429-5DD771AE4C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{515909B2-ECDB-488E-9429-5DD771AE4C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{515909B2-ECDB-488E-9429-5DD771AE4C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D430AB5D-37C8-4C9A-AF4A-51941322D61B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D430AB5D-37C8-4C9A-AF4A-51941322D61B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D430AB5D-37C8-4C9A-AF4A-51941322D61B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D430AB5D-37C8-4C9A-AF4A-51941322D61B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
